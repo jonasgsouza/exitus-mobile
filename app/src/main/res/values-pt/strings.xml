@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exitus</string>
+    <string name="mensagem_sem_comunicacao_servidor">Não foi possível conectar ao servidor. Verifique a URL na engrenagem.</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="usuario">Usuário</string>
+</resources>

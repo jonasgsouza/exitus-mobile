@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/fechar_slide_panel"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:background="@drawable/fechar_modal" />
+
+    <TextView
+        android:id="@+id/txtView_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0.50"
+        android:gravity="center_horizontal"
+        android:text="Disciplina"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView_aulas_ministradas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="/" />
+
+        <TextView
+            android:id="@+id/textView_aulas_previstas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aulas ministradas"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:text="Escolha o dia para lançar a frequência:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/edit_text_dia_freq"
+        android:textAlignment="center"
+        style="@style/Widget.AppCompat.EditText"
+        android:clickable="false" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:text="Quantas aulas deseja lançar?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edit_text_numero_aulas"
+        android:textAlignment="center" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C0C0C0"
+            android:id="@+id/view2" />
+
+        <Button
+            android:text="Continuar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#08AE9E"
+            android:id="@+id/btn_continuar" />
+    </LinearLayout>
+
+
+</LinearLayout>

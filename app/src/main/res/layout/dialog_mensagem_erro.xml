@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FB4444">
+
+        <TextView
+            android:text="Erro"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/textView3"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/dialog_mensagem_erro_txt_mensagem"
+                    android:textSize="18sp"
+                    android:textAlignment="viewStart"
+                    android:padding="10dp"
+                    android:layout_height="match_parent"
+                    android:elevation="0dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/dialog_mensagem_erro_btn_ok"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="0dp"
+            android:text="OK" />
+
+    </LinearLayout>
+</LinearLayout>

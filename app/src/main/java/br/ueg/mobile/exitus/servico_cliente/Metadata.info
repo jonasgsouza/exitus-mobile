@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EasyWSDL>
+  <Info>
+    <Version>5.5.0.6</Version>
+    <AccountType>Basic</AccountType>
+    <LibrariesFolder>libs/easywsdl</LibrariesFolder>
+    <MainClass>FESAutenticadorServiceServiceSoapBinding</MainClass>
+  </Info>
+  <Settings>
+    <Url>http://192.168.1.103:8080/exitus-webservice/services/AutenticadorServicePort?wsdl</Url>
+    <ClassPrefix/>
+    <PackageName>br.ueg.mobile.exitus.servico_cliente</PackageName>
+    <AddDocumentation>false</AddDocumentation>
+    <EnableAdvancedFeatures>false</EnableAdvancedFeatures>
+    <EnableMTOM>false</EnableMTOM>
+    <EncodeIllegalCharacters>true</EncodeIllegalCharacters>
+    <GenerateAsyncOperations>true</GenerateAsyncOperations>
+    <ImplementSerializable>false</ImplementSerializable>
+    <ImplementParcelable>false</ImplementParcelable>
+    <AddAnyCollection>false</AddAnyCollection>
+    <UseJodaTime>false</UseJodaTime>
+    <Repackage/>
+    <GenerateHtmlDocumentation>true</GenerateHtmlDocumentation>
+  </Settings>
+  <Files>
+    <File>docs/Html/FESAutenticadorServiceServiceSoapBinding.html</File>
+    <File>docs/Html/FESAutenticadorServiceServiceSoapBinding_methods.html</File>
+    <File>docs/Html/MTOMTransfer.html</File>
+    <File>docs/Html/Tips.html</File>
+    <File>docs/Index.html</File>
+    <File>docs/Styles/Blueprint_Styles/Style.css</File>
+    <File>FESAutenticadorServiceServiceSoapBinding.java</File>
+    <File>FESExtendedSoapSerializationEnvelope.java</File>
+    <File>FESFunctions.java</File>
+    <File>FESHelper.java</File>
+    <File>FESIServiceEvents.java</File>
+    <File>FESMarshalGuid.java</File>
+    <File>FESOperationResult.java</File>
+  </Files>
+  <Libraries>
+    <File>ExKsoap2-1.0.2.0.jar</File>
+    <File>ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar</File>
+  </Libraries>
+</EasyWSDL>

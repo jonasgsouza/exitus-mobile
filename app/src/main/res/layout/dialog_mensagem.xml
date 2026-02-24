@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08AE9E">
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dialog_mensagem_titulo"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/dialog_mensagem_txt_mensagem"
+                    android:textSize="18sp"
+                    android:textAlignment="viewStart"
+                    android:padding="10dp"
+                    android:layout_height="match_parent"
+                    android:elevation="0dp" />
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <Button
+                android:text="OK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialog_mensagem_btn_ok"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item android:title="Sincronizar"
+            android:id="@+id/menu_lateral_btn_sincronizar" />
+        <item android:title="Ajuda"
+            android:id="@+id/menu_lateral_btn_ajuda"/>
+    </group>
+</menu>
